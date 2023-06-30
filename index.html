@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more
+-->
+
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Media Query</title>
+  <style>
+    body {
+      background-color: aquamarine;
+    }
+    @media(min-width:480px) and (max-width:319px){
+      body {
+        background-color: lightsalmon;
+      }
+    }
+    @media(min-width:481px) and (max-width:1200px){
+      body {
+        background-color: powderblue;
+      }
+    }
+    @media(min-width:1201px) and (max-width:1600px){
+      body {
+        background-color: limegreen;
+      }
+    }
+    @media(min-width:1601px) {
+      body {
+        background-color: seagreen;
+      }
+    }
+    p{
+      font-size: 50px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div>
+    <p>Hey this is not a blank page!!! ,This is a responsive website (media queries) ,
+      So please try to open this link on different devices (mobile,laptop,ipad,tablets,destops etc) 
+      and observe the background color change. <br>--Deepak R A😁😁❤️ </p>
+  </div>
+</body>
+
+</html>
